@@ -3,7 +3,7 @@ project:
   title:        "RO array for variation and BTI aging"
   author:       "Maohan Sun"
   discord:      ""
-  description:  "32 ring oscillators (INV, NAND2/NOR2 on pin A1 or A2, AC- or DC-stressed) with an on-chip frequency counter"
+  description:  "52 ring oscillators (INV, NAND2/NOR2 on pin A1 or A2, AC- or DC-stressed) with an on-chip frequency counter"
   language:     "Verilog"
   clock_hz:     10000000
 
@@ -43,7 +43,7 @@ pinout:
   uio[0]: "STRESS_ON"
   uio[1]: "WIN0"
   uio[2]: "WIN1"
-  uio[3]: ""
+  uio[3]: "SEL5"
   uio[4]: ""
   uio[5]: ""
   uio[6]: "RO_DIV256"
